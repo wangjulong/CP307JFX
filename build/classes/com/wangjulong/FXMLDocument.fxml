@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane xmlns:fx="http://javafx.com/fxml/1" alignment="TOP_CENTER" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" fx:controller="com.wangjulong.FXMLDocumentController">
+    <children>
+        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#getLotteryFromWeb" text="get号码" />
+        <Button mnemonicParsing="false" onAction="#dataOnly" text="only数据" />
+        <ListView fx:id="listData" prefHeight="200.0" prefWidth="200.0" />
+    </children>
+</FlowPane>
